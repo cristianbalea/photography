@@ -1,0 +1,21 @@
+$font-stack: Georgia, 'Times New Roman', Times, serif;
+$color-no1: #E2495B;
+$color-no2: #C4BA3B;
+$color-no3: #F4ED6E;
+$color-no4: #FFFEE6;
+
+.navbar {
+    background-color: $color-no1;
+}
+
+.navbar-brand {
+    font-family: $font-stack;
+    color: $color-no4;
+    font-size: 30px;
+}
+
+.nav-link {
+    color:$color-no4;
+    font-family: $font-stack;
+    font-size: 20px;
+}

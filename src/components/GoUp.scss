@@ -1,0 +1,16 @@
+$font-stack: Georgia, "Times New Roman", Times, serif;
+$color-no1: #e2495b;
+$color-no2: #c4ba3b;
+$color-no3: #f4ed6e;
+$color-no4: #fffee6;
+
+.footer {
+  display: flex;
+  font-family: $font-stack;  
+  text-align: center;  
+  padding: 10px;
+  width: 100%;
+  color: $color-no4;
+  justify-content: space-around;
+  background-color: $color-no1;
+}

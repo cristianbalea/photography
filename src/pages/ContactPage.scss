@@ -1,0 +1,55 @@
+$font-stack: Georgia, "Times New Roman", Times, serif;
+$color-no1: #e2495b;
+$color-no2: #c4ba3b;
+$color-no3: #f4ed6e;
+$color-no4: #fffee6;
+
+.body {
+  background-color: $color-no4;
+}
+
+.centered {
+  padding: 20px;
+  display: block;
+  width: 70%;
+  max-width: 600px;
+  margin: auto;
+  font-family: $font-stack;
+  color: $color-no1;
+  text-align: center;
+}
+
+.form-control {
+  background-color: $color-no4;
+}
+
+.form-select {
+  background-color: $color-no4;
+  color: $color-no1;
+}
+
+.button {
+  background-color: $color-no1;
+  color: $color-no4;
+  margin: auto;
+  width: 30%;
+  min-height: 40px;
+  display: block;
+  border: $color-no1;
+  border-radius: 10px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: $color-no1;
+}
+
+.datepicker {
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,24 @@
+$font-stack: Georgia, "Times New Roman", Times, serif;
+$color-no1: #e2495b;
+$color-no2: #c4ba3b;
+$color-no3: #f4ed6e;
+$color-no4: #fffee6;
+
+
+.title {
+    font-family: $font-stack;
+    font-size: 40px;
+    color: $color-no1;
+    padding: 70px;
+}
+
+.about {
+    font-family: $font-stack;
+    font-size: medium;
+    color: $color-no1;
+}
+
+.col {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

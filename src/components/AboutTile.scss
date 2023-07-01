@@ -1,0 +1,36 @@
+$font-stack: Georgia, "Times New Roman", Times, serif;
+$color-no1: #e2495b;
+$color-no2: #c4ba3b;
+$color-no3: #f4ed6e;
+$color-no4: #fffee6;
+
+.card {
+    width: 25rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: $color-no4;
+    font-family: $font-stack;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    font-family: $font-stack;
+    background-color: $color-no1;
+    color: $color-no4;
+    margin: auto;
+    width: 30%;
+    min-height: 40px;
+    display: block;
+    border: $color-no1;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: $color-no1;
+}
+
