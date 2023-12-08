@@ -9,7 +9,7 @@ function MainNavigation() {
     <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="/">Cristian Foto&Video</Navbar.Brand>
-        <Navbar.Toggle/>
+        <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="ms-auto">
             <Nav.Link href="/shop">Magazin</Nav.Link>

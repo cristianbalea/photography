@@ -1,21 +1,21 @@
-$font-stack: Georgia, 'Times New Roman', Times, serif;
-$color-no1: #E2495B;
-$color-no2: #C4BA3B;
-$color-no3: #F4ED6E;
-$color-no4: #FFFEE6;
+$font-stack: Georgia, "Times New Roman", Times, serif;
+$color-no1: #e2495b;
+$color-no2: #c4ba3b;
+$color-no3: #f4ed6e;
+$color-no4: #fffee6;
 
 .navbar {
-    background-color: $color-no1;
+  background-color: $color-no1;
 }
 
 .navbar-brand {
-    font-family: $font-stack;
-    color: $color-no4;
-    font-size: 30px;
+  font-family: $font-stack;
+  color: $color-no4;
+  font-size: 30px;
 }
 
 .nav-link {
-    color:$color-no4;
-    font-family: $font-stack;
-    font-size: 20px;
+  color: $color-no4;
+  font-family: $font-stack;
+  font-size: 20px;
 }
